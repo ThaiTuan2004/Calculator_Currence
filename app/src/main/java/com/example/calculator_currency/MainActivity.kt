@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.EditText
 import android.widget.Spinner
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
@@ -16,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var text2: EditText
     lateinit var selected1: String
     lateinit var selected2: String
-    lateinit var testtext: TextView
     val exchangeRates = mapOf(
         "USD" to 1.0,
         "EUR" to 0.85,

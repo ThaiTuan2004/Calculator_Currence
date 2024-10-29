@@ -6,30 +6,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity" >
 
     <EditText
         android:id="@+id/inputEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
         android:hint="Nhập dữ liệu"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <Spinner
         android:id="@+id/Spinner1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_gravity="center"
+        android:layout_height="50dp" />
 
     <EditText
         android:id="@+id/inputEditText1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
         android:hint="Nhập dữ liệu"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <Spinner
         android:id="@+id/Spinner2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_gravity="center"
+        android:layout_height="50dp" />
 
 </LinearLayout>
